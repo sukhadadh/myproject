@@ -1,4 +1,5 @@
 import re
+print("welcome to our website, please create an account")
 username = input("enter a username:")
 password = input("enter a password:")
 display = '*'*len(password)
