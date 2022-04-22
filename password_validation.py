@@ -9,6 +9,8 @@ elif " " in password:
     print("password shouls not contain any space")
 elif not re.search('[0-9]',password):
     print("password should contin atleats one digit")
+elif not re.search('[#,@,_,$]',password):
+    print("password should contain at least of of the Special Symbol #,@,_,$")
 else:
     print("account created successfully")
     print("your username is:",username)
